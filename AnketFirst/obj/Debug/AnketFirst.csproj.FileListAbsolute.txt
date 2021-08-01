@@ -1,0 +1,13 @@
+C:\Users\Kənan\source\repos\AnketFirst\AnketFirst\obj\Debug\AnketFirst.csproj.AssemblyReference.cache
+C:\Users\Kənan\source\repos\AnketFirst\AnketFirst\obj\Debug\AnketFirst.Form1.resources
+C:\Users\Kənan\source\repos\AnketFirst\AnketFirst\obj\Debug\AnketFirst.Properties.Resources.resources
+C:\Users\Kənan\source\repos\AnketFirst\AnketFirst\obj\Debug\AnketFirst.csproj.GenerateResource.cache
+C:\Users\Kənan\source\repos\AnketFirst\AnketFirst\obj\Debug\AnketFirst.csproj.CoreCompileInputs.cache
+C:\Users\Kənan\source\repos\AnketFirst\AnketFirst\bin\Debug\AnketFirst.exe.config
+C:\Users\Kənan\source\repos\AnketFirst\AnketFirst\bin\Debug\AnketFirst.exe
+C:\Users\Kənan\source\repos\AnketFirst\AnketFirst\bin\Debug\AnketFirst.pdb
+C:\Users\Kənan\source\repos\AnketFirst\AnketFirst\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kənan\source\repos\AnketFirst\AnketFirst\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kənan\source\repos\AnketFirst\AnketFirst\obj\Debug\AnketFirst.csproj.CopyComplete
+C:\Users\Kənan\source\repos\AnketFirst\AnketFirst\obj\Debug\AnketFirst.exe
+C:\Users\Kənan\source\repos\AnketFirst\AnketFirst\obj\Debug\AnketFirst.pdb
