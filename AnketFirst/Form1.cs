@@ -34,8 +34,8 @@ namespace AnketFirst
             };
 
             Ankets.Add(anket);
-            listBox1.DataSource = Ankets;
-            listBox1.DisplayMember = "name";
+            //AnketlistBox.DataSource = Ankets;
+            //AnketlistBox.DisplayMember = "name";
 
         }
 
@@ -69,35 +69,17 @@ namespace AnketFirst
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //foreach (var item in Ankets)
+            //{
+             FileHelper.JsonSerialization<Anket>(ref Ankets,nameTxtb.Text);
+            //}
+            MessageBox.Show("Anket added to json!");
 
-            var serializer = new JsonSerializer();
-            using (var sw = new StreamWriter(nameTxtb.Text + ".json"))
-            {
-                using (var jw = new JsonTextWriter(sw))
-                {
-                    jw.Formatting = Newtonsoft.Json.Formatting.Indented;
-                    serializer.Serialize(jw, Ankets);
-                }
-            }
         }
 
         private void printBtn_Click(object sender, EventArgs e)
-        {
-            Anket[] Ankets = null;
-            var serializer = new JsonSerializer();
-
-            using (StreamReader sr = new StreamReader(nameTxtb.Text + ".json"))
-            {
-                using (var jr = new JsonTextReader(sr))
-                {
-                    Ankets = serializer.Deserialize<Anket[]>(jr);
-                }
-                foreach (var item in Ankets)
-                {
-                    Console.WriteLine(item);
-                }
-
-            }
+        {            
+            AnketlistBox= FileHelper.JsonDeserialize<Anket>(ref Ankets, nameTxtb.Text);
         }
     }
 }

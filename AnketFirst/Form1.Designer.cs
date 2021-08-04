@@ -29,7 +29,7 @@ namespace AnketFirst
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.AnketlistBox = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.AgeTxtb = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -55,13 +55,13 @@ namespace AnketFirst
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // listBox1
+            // AnketlistBox
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(487, 41);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(252, 290);
-            this.listBox1.TabIndex = 4;
+            this.AnketlistBox.FormattingEnabled = true;
+            this.AnketlistBox.Location = new System.Drawing.Point(487, 41);
+            this.AnketlistBox.Name = "AnketlistBox";
+            this.AnketlistBox.Size = new System.Drawing.Size(252, 290);
+            this.AnketlistBox.TabIndex = 4;
             // 
             // groupBox1
             // 
@@ -307,7 +307,7 @@ namespace AnketFirst
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.AnketlistBox);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -319,7 +319,7 @@ namespace AnketFirst
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox AnketlistBox;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox AgeTxtb;
         private System.Windows.Forms.Label label9;
