@@ -14,7 +14,7 @@ namespace AnketFirst
         public static void JsonSerialization<Anket>(ref List<Anket> Ankets, string filename)
         {
             var serializer = new JsonSerializer();
-            using (var sw = new StreamWriter($"Ankenname: {filename}"))
+            using (var sw = new StreamWriter($"AnkentName: {filename}"))
             {
                 using (var jw = new JsonTextWriter(sw))
                 {
@@ -29,7 +29,7 @@ namespace AnketFirst
             Ankets = null;
             var serializer = new JsonSerializer();
 
-            using (StreamReader sr = new StreamReader($"Ankenname: {filename}"))
+            using (StreamReader sr = new StreamReader($"AnkentName: {filename}"))
             {
                 using (var jr = new JsonTextReader(sr))
                 {

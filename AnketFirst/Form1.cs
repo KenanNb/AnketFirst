@@ -34,8 +34,8 @@ namespace AnketFirst
             };
 
             Ankets.Add(anket);
-            //AnketlistBox.DataSource = Ankets;
-            //AnketlistBox.DisplayMember = "name";
+            AnketlistBox.DataSource = Ankets;
+            AnketlistBox.DisplayMember = "name";
 
         }
 
